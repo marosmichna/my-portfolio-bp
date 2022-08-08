@@ -95,11 +95,11 @@ const Header = () => {
     />
       <main className="main-info">
         <h1>
-            web development and websites promotions
+            web development
         </h1>
         <Typed 
             className="typed-text"
-            strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+            strings={["Web Design", "Web Development", "HTML", "CSS", "JAVASCRIPT", "REACT", "BOOTSTRAP" ]}
             typeSpeed={40}
             backSpeed={60}
             loop
@@ -110,4 +110,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
