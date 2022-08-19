@@ -90,7 +90,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: white;
 }
 
 /*--- HEADER MAIN OFFER BUTTON ---*/
@@ -115,13 +115,12 @@ nav ul li {
 /******************************************* ABOUT ME ****************************************/
 
 .about-div {
-  background-color: #233142;
+  background-color: white;
   height: 90vh; 
 }
 
 .about-container {
   padding-top: 100px; 
-  background-color: #233142; 
 }
 
 .about-row {
@@ -129,68 +128,205 @@ nav ul li {
 }
 
 .about-img {
-  height: 26.5625rem; /* 425px*/
-  box-shadow: 0.625rem 0.3125rem 0.3125rem white;
+  height: 25rem; /* 400px*/
+  box-shadow: 0.625rem 0.3125rem 0.3125rem wheat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: brightness(50%);
+}
+
+.about-img:hover, .about-img:focus, .about-img:active {
+  -webkit-transform: scale(1.01);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  transform: scale(1.01);
+  filter: brightness(100%);
 }
 
 .about-name {
   color: var(--primary-orange);
   text-align: center;
+  padding-top: 10px;
+}
+
+.about-name:hover, .about-name:focus, .about-name:active {
+  -webkit-transform: scale(1.05);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  transform: scale(1.05);
+  text-shadow: 0 0 3px #FF0000;
 }
 
 .about-study {
-  border: 0.125rem solid var(--primary-white);
+  border: 0.125rem solid black;
   border-radius: 1.25rem;
   padding: 1.25rem;
   margin-bottom: 1.25rem;
-  box-shadow: 0.625rem 0.3125rem 0.3125rem red;
+  box-shadow: 0.625rem 0.3125rem 0.3125rem #9fd3c7;
+ 
+}
+
+.about-study:hover, .about-study:focus, .about-study:active {
+  background-color: #9fd3c7;
+  -webkit-transform: scale(1.05);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  transform: scale(1.05);
 }
 
 .about-study > h3 {
-  color: var(--primary-white);
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
 
 .about-study > p {
-  color: var(--primary-white);
+  color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about-work {
-  border: 0.125rem solid var(--primary-white);
+  border: 0.125rem solid black;
   border-radius: 1.25rem;
   padding: 1.25rem;
   margin-bottom: 1.25rem;
-  box-shadow: 0.625rem 0.3125rem 0.3125rem blue;
+  box-shadow: 0.625rem 0.3125rem 0.3125rem #9fd3c7;
+}
+
+.about-work:hover, .about-work:focus, .about-work:active {
+  background-color: #9fd3c7;
+  -webkit-transform: scale(1.05);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  transform: scale(1.05);
 }
 
 .about-work > h3 {
-  color: var(--primary-white);
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
 
 .about-work > p {
-  color: var(--primary-white);
+  color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about-today {
-  border: 0.125rem solid var(--primary-white);
+  border: 0.125rem solid black;
   border-radius: 1.25rem;
   padding: 1.25rem;
   margin-bottom: 1.25rem;
-  box-shadow: 0.625rem 0.3125rem 0.3125rem yellow;
+  box-shadow: 0.625rem 0.3125rem 0.3125rem #9fd3c7;
+}
+
+.about-today:hover, .about-today:focus, .about-today:active {
+  background-color: #9fd3c7;
+  -webkit-transform: scale(1.05);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  transform: scale(1.05);
 }
 
 .about-today > h3 {
-  color: var(--primary-white);
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
 
 .about-today > p {
-  color: var(--primary-white);
+  color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/******************************************* SKILLS ****************************************/
+
+.div-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-html {
+  width: 70%;
+}
+
+.html-card:hover, .html-card:focus, .html-card:active {
+  -webkit-transform: scale(1.01);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transform: scale(1.01);
+  background-color: #455d7a;
+}
+
+.progress-css {
+  width: 55%;
+}
+
+.css-card:hover, .css-card:focus, .css-card:active {
+  -webkit-transform: scale(1.01);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transform: scale(1.01);
+  background-color: #afc5ff;
+}
+
+.progress-js {
+  width: 40%;
+}
+
+.js-card:hover, .js-card:focus, .js-card:active {
+  -webkit-transform: scale(1.01);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transform: scale(1.01);
+  background-color: #f8f398;
+}
+.progress-react {
+  width: 40%;
+}
+
+.react-card:hover, .react-card:focus, .react-card:active {
+  -webkit-transform: scale(1.01);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transform: scale(1.01);
+  background-color: #455d7a;
+}
+
+.progres-bootstrap {
+  width: 50%;
+}
+
+.bootstrap-card:hover, .bootstrap-card:focus, .bootstrap-card:active {
+  -webkit-transform: scale(1.01);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transform: scale(1.01);
+  background-color: #afc5ff;
+}
+
+.progress-git {
+  width: 50%;
+}
+
+.git-card:hover, .git-card:focus, .git-card:active {
+  -webkit-transform: scale(1.01);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transform: scale(1.01);
+  background-color: #f8f398;
+}
+
+.progress .progress-bar {
+  animation-name: animateBar;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2.0s;
+}
+
+@keyframes animateBar {
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(0);}
 }
